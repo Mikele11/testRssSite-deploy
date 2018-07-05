@@ -1,0 +1,38 @@
+{
+  "name": "chrkovnews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "8.4.0"
+  },
+  "author": "Ilyash Mychailo",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "feed-read": "0.0.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "needle": "^2.2.0",
+    "request": "^2.85.0",
+    "tress": "^1.0.5",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "yes": "^1.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikele11/testRssSite-deploy.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Mikele11/testRssSite-deploy/issues"
+  },
+  "homepage": "https://github.com/Mikele11/testRssSite-deploy#readme"
+}
