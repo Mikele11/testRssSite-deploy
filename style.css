@@ -20,7 +20,9 @@ body {
   border-radius: 0.5em;
 }
 a{
-  height: 50px;
+    padding-top: 10px;
+    text-align: center;
+    height: 50px;
     width: 155px;
     display: block;
     background: cornflowerblue;
