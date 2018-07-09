@@ -74,7 +74,7 @@ app.get('/news/:count', function (req, res) {
 	  var linknews = a.link || a.feed.link;
 	  res.write('<div class="article">')
 	  res.write("<h3>"+a.title +"</h3>");
-	  res.write("<p><a href="+'"'+linknews +'"'+">" +"link to the original</a><strong> - " +"</br></br>"+a.published +"</strong></br> <br />\n");
+	  res.write("<p><a href="+'"'+linknews +'"'+">" +"link to the original</a><strong>" +"</br>"+a.published +"</strong></br> <br />\n");
 	  res.write(a.content+"</p> </div>\n");
 	}
 });
